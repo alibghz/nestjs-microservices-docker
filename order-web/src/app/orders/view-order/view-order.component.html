@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Order</h1>
+<div mat-dialog-content>
+  <div class="row">
+    <div class="col">
+      <strong>Date: </strong>
+      <span>{{order.createdAt|date:'yyyy-MM-dd HH:mm'}}</span>
+    </div>
+    <div class="col">
+      <strong>Username: </strong>
+      <span>{{order.username}}</span>
+    </div>
+    <div class="col">
+      <strong>Amount: </strong>
+      <span>{{order.amount}}</span>
+    </div>
+    <div class="col">
+      <strong>Transaction Id: </strong>
+      <span>{{order.transactionId}}</span>
+    </div>
+    <div class="col">
+      <strong>Status: </strong>
+      <span>{{order.status | uppercase}}</span>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()" color="primary">Close</button>
+</div>

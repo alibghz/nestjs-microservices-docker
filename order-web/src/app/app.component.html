@@ -1,0 +1,11 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <a [routerLink]="['/']" mat-button><span class="mat-button-wrapper">Order Management</span></a>
+      <a [routerLink]="['/orders']" mat-button><span class="mat-button-wrapper">Orders</span></a>
+    </mat-toolbar>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

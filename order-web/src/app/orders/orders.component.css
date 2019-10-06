@@ -1,0 +1,39 @@
+.full-width-table {
+  width: 100%;
+}
+
+.btn-new {
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.label {  
+  display: inline;
+  padding: .5em;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.created {
+  background-color: #007bff;
+}
+
+.confirmed {
+  background-color: #28a745;
+}
+
+.delivered {
+  background-color: #aaa;
+}
+
+.canceled {
+  background-color: #dc3545;
+}

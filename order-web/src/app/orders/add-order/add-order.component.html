@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>New Order</h1>
+<div mat-dialog-content>
+  <div class="row">
+    <div class="col">
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Amount" type="number"  [(ngModel)]="amount">
+      </mat-form-field>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()" color="warn">Cancel</button>
+  <button mat-button [mat-dialog-close]="amount" color="primary" cdkFocusInitial
+    [disabled]="!amount || amount < 0.01">Submit</button>
+</div>
