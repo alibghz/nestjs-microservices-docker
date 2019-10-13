@@ -5,13 +5,13 @@
 ## Description
 
 Sample Order Management Service developed using [Nest](https://github.com/nestjs/nest) framework:
-- Event-based and Message-based microservices with TCP:8876
-- REST Api on port 8877
-- Swagger
+- Event-based and Message-based microservices on TCP:8876
+- REST Api on port HTTP:8877
+- Swagger (http://localhost:8877/doc)
 - WebSocket
 - MongoDb
 - Docker
 
 ## License
 
-  [MIT licensed](LICENSE).
+MIT licensed.

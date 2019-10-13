@@ -10,4 +10,4 @@ Sample Payment Service developed using [Nest](https://github.com/nestjs/nest) fr
 
 ## License
 
-  [MIT licensed](LICENSE).
+  MIT licensed.

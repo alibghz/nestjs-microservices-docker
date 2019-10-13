@@ -7,4 +7,4 @@ Sample Order Management Web Application developed using [Angular](https://angula
 
 ## License
 
-  [MIT licensed](LICENSE).
+MIT licensed.
